@@ -3,8 +3,8 @@ package com.design.pattern.creational.factory;
 public class Tiger implements Animal {
 
 	@Override
-	public void eatFood() {
-		System.out.println("Tiger eat meat");
+	public void eat() {
+		System.out.println("Tiger eats meat");
 	}
 
 }

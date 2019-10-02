@@ -3,16 +3,16 @@ package com.design.pattern.creational.factory;
 public class Main {
 
 	public static void main(String[] args) {
-		FactoryPattern fp = new FactoryPattern();
+		AnimalFactory fp = new AnimalFactory();
 		
 		Animal animal = fp.getAnimal("Tiger");
-		animal.eatFood();
+		animal.eat();
 		
 		animal = fp.getAnimal("Lion");
-		animal.eatFood();
+		animal.eat();
 		
 		animal = fp.getAnimal("Leopard");
-		animal.eatFood();
+		animal.eat();
 	}
 
 }
