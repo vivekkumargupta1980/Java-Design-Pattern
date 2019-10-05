@@ -2,8 +2,7 @@ package com.design.pattern.creational.builder;
 
 public class Computer {
 	private String computerName;
-	private Computer () {}
-	
+	private Computer() {}
 	public static class Builder {
 		private String computerName;
 		
@@ -21,5 +20,10 @@ public class Computer {
 
 	public String getComputerName() {
 		return computerName;
+	}
+	
+	@Override
+	public String toString() {
+		return "Computer [computerName=" + computerName + "]";
 	}
 }
